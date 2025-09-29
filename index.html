@@ -370,16 +370,16 @@
 <section class="benchmark">
   <centering>
     <div class="container is-max-desktop">
-            <div class="columns is-centered">
-                <div class="column is-full-width">
-                    <div class="content has-text-justified">
-                        <h3 class="title is-4"> EditReward-Bench </h3>
-                        <p> We first introduce EditReward-Bench, a new public benchmark for the direct and reliable evaluation of reward models. It features 13 diverse subtasks and expert human annotations, establishing a gold standard for measuring reward signal quality.
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <h3 class="title is-4"> EditReward-Bench </h3>
+            <p> We first introduce EditReward-Bench, a new public benchmark for the direct and reliable evaluation of reward models. It features 13 diverse subtasks and expert human annotations, establishing a gold standard for measuring reward signal quality.
+            </p>
+          </div>
         </div>
+      </div>
+    </div>
     <div style="text-align: center;">
       <img id="teaser" width="60%" src="static/images/table_reward_model_results.png" vspace="0">
     </div>
@@ -388,6 +388,19 @@
 
 <section class="edit_results">
   <centering>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <h3 class="title is-4"> EditScore </h3>
+            <p> Guided by our benchmark, we developed the EditScore model series.
+              We demonstrate the practical utility of EditScore through two key applications:
+As a State-of-the-Art Reranker: Use EditScore to perform Best-of-N selection and instantly improve the output quality of diverse editing models.
+As a High-Fidelity Reward for RL: Use EditScore as a robust reward signal to fine-tune models via RL, enabling stable training and unlocking significant performance gains where general-purpose VLMs fail.
+          </div>
+        </div>
+      </div>
+    </div>
     <div style="text-align: center;">
       <img id="teaser" width="60%" src="static/images/figure_edit_results.png" vspace="0">
     </div>
